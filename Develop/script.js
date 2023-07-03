@@ -1,10 +1,8 @@
-// Assignment code here
 
 function generatePassword() {
   // Prompt 1: Desired password length
   var passwordLengthInput = prompt('Enter desired password length (between 8 and 128 characters)');
   var passwordLength = passwordLengthInput;
-  console.log(passwordLength);
 
   // Validate length and type of user input to ensure a number in the desired range is entered. 
 if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
